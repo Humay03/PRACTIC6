@@ -1,0 +1,650 @@
+*{
+padding: 0%;
+margin: 0%;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+ul{
+ list-style:none ;   
+}
+
+ header{
+  width:100px ;
+  height:100dvh ;
+    
+  .container1{
+    width:400dvh;
+    height:60px ; 
+    background-color:white;
+
+    display: flex;
+    margin:0px 106px ;
+    padding:0px 48px ;
+    
+
+    .start{
+    margin:10px ;
+    padding:5px ;
+    color:black ;
+    font-size:25px ;
+    text-align: center;
+
+
+    }
+
+    
+    ul{
+        display: flex;  
+        margin:20px;
+        
+      li{
+        
+
+        a{
+        text-align:center;
+        padding:8px ;
+        color:#0000008C;
+        font-size:20px;
+        }
+      
+       
+
+
+      }
+
+      li:nth-of-type(1){
+        color: black;
+      }
+
+
+
+    }
+    button{
+      padding:6px 12px ;
+      position: relative;
+      left:550px ;
+      width:125px ;
+      height:50px ;
+      border-radius:6px ;
+      position: relative;
+      top:8px ;
+
+        &:hover{
+        background-color:black;
+
+        }
+
+      .btn{
+       font-size:20px ;
+       color: black;
+
+       &:hover{
+        color:white ;
+
+       }
+
+      }
+      .btn2{
+      font-size:15px ;
+      padding:5px 10px; 
+      border-radius:100px ;
+      background-color: black;
+      color:white ;
+
+      }
+      
+    }
+
+  }
+   
+    .container2{
+     width:400dvh ;
+     height:50dvh ;
+     background-color:#212529;
+
+      .text{
+        text-align: center;
+        position: relative;
+        top:100px ;
+        right:700px;
+
+     h1 {
+      color:white;
+      font-size:70px ;
+      padding:0px 8px ;
+     
+
+     }
+      p{
+       align-items: center;
+       color:#FFFFFF80;
+       font-size:25px;
+       position: relative;
+       bottom:15px ;
+       
+      }
+
+    }
+
+    }
+
+
+ }
+
+ main{ 
+margin-top:-200px ;
+
+   .section{
+    margin:48px 106px 0px ;
+    padding:0px 48px ;
+
+     .one{
+    display: inline-block;
+    width:300px ;
+    height:450px ;
+    border:1px solid lightgray ;
+    border-radius:6px ;
+    position:relative;
+    bottom:25px ;
+       img{
+        position: relative;
+        width:300px ;
+        border-radius:6px ;
+       }
+         div{
+          text-align: center;
+          position: relative;
+          top:20px ;
+
+        h5{
+          font-size:25px ;
+          }
+
+         p{
+          font-size:20px ;
+          }
+
+         button{
+          position: relative;
+          top:65px ;
+          width:140px ;
+          height:50px;
+          border-radius:6px ;
+
+             a{
+          text-align: center;
+           font-size:18px ; 
+           color: black;     
+   
+                }
+
+              }
+
+         }
+
+    }  
+
+      .two{
+      display: inline-block;
+      width:300px ;
+      height:450px ;
+      border:1px solid lightgray ;
+      border-radius:6px ;
+      position:relative;
+      left:125px;
+      text-align: center;
+
+         .sale{
+          position:relative;
+          bottom:195px ;
+          left:110px ;
+          width:50px ;
+          height:25px ;
+          font-weight: bold;
+          background-color: black;
+          color:white ;
+          border-radius:6px ;
+
+         }
+        
+
+        img{
+          position:relative;
+          width:300px ;
+          border-radius:6px ;
+         }
+
+         div{
+          text-align: center;
+
+        h5{
+          font-size:25px ;
+          }
+
+         p{
+          font-size:20px ;
+           span{
+            text-decoration: line-through;
+           }
+          }
+
+         button{
+          position: relative;
+          top:65px ;
+          width:140px ;
+          height:50px;
+          border-radius:6px ;
+
+             a{
+            text-align: center;
+           font-size:18px ; 
+           color: black;     
+   
+                }
+
+              }
+
+         }
+
+
+      }
+
+         
+        .three{
+          display: inline-block;
+          width:300px ;
+          height:450px ;
+          border:1px solid lightgray ;
+          border-radius:6px ;
+          position:relative;
+          left:250px ;
+
+          .sale{
+            position:relative;
+            bottom:195px ;
+            left:235px ;
+            width:50px ;
+            height:25px ;
+            font-weight: bold;
+            background-color: black;
+            color:white ;
+            border-radius:6px ;
+  
+           }
+          
+
+            img{
+              position: relative;
+              width:300px ;
+              border-radius:6px ;
+
+            }
+
+            div{
+              text-align: center;
+          
+        h5{
+          font-size:25px ;
+          }
+
+         p{
+          font-size:20px ;
+           span{
+            text-decoration: line-through;
+           }
+          }
+
+         button{
+          position: relative;
+          top:65px ;
+          width:140px ;
+          height:50px;
+          border-radius:6px ;
+
+             a{
+            text-align: center;
+           font-size:18px ; 
+           color: black;     
+   
+                }
+
+              }
+
+
+
+            }
+          }
+
+            .four{
+              display: inline-block;
+              width:300px ;
+              height:450px ;
+              border:1px solid lightgray ;
+              border-radius:6px ;
+      
+          
+              
+    
+                img{
+                  width:300px ;
+                  border-radius:6px ;
+                 }
+
+                  
+                div{
+              text-align: center;
+              position: relative;
+              top:20px ;
+    
+            h5{
+              font-size:25px ;
+              }
+    
+             p{
+              font-size:20px ;
+              }
+    
+             button{
+              position: relative;
+              top:65px ;
+              width:140px ;
+              height:50px;
+              border-radius:6px ;
+    
+                 a{
+              text-align: center;
+               font-size:18px ; 
+               color: black;     
+       
+                    }
+    
+                  }
+    
+             }  
+
+            }
+
+    
+                }
+
+          .five{
+          display: inline-block;
+          width:300px ;
+          height:450px ;
+          position:relative;
+          border:1px solid lightgray ;
+          border-radius:6px ;
+          left:125px ;
+          top:20px;
+
+          .sale{
+            position:relative;
+            bottom:195px ;
+            left:230px ;
+            width:50px ;
+            height:25px ;
+            font-weight: bold;
+            background-color: black;
+            color:white ;
+            border-radius:6px ;
+  
+           }
+          
+        
+              img{
+              width:300px ;
+              border-radius:6px ;
+                }
+                     
+           div{
+           text-align: center;
+
+          
+        h5{
+          font-size:25px ;
+          }
+
+         p{
+          font-size:20px ;
+          span{
+            text-decoration: line-through;
+          }
+          }
+
+         button{
+          position: relative;
+          top:65px ;
+          width:140px ;
+          height:50px;
+          border-radius:6px ;
+
+             a{
+            text-align: center;
+           font-size:18px ; 
+           color: black;     
+   
+                }
+
+              }
+
+
+
+                 }
+                       
+                 }
+        
+
+                  
+         .six{
+         display: inline-block;
+        width:300px ;
+         height:450px ;
+        position:relative;
+        top:-8  px ;
+        left:250px ;
+        border:1px solid lightgray ;
+        border-radius:6px ;
+        
+            
+        
+        img{
+         width:300px ;
+         border-radius:6px ;
+          }
+                     
+         div{
+          text-align: center;
+          position: relative;
+          top:30px ;
+          h5{
+            font-size:25px ;
+            }
+  
+           p{
+            font-size:20px ;
+            }
+  
+           button{
+            position: relative;
+            top:60px ;
+            width:140px ;
+            height:50px;
+            border-radius:6px ;
+  
+               a{
+              text-align: center;
+             font-size:18px ; 
+             color: black;     
+     
+                  }
+  
+                }
+  
+
+
+
+          }
+
+
+                       
+       }
+
+    .seven{
+     display: inline-block;
+     width:300px ;
+     height:450px ;
+     border:1px solid lightgray ;
+     border-radius:6px ;
+    position:relative;
+    top:40px ;
+    left:200px ;
+    
+    .sale{
+      position:relative;
+      bottom:195px ;
+      left:230px ;
+      width:50px ;
+      height:25px ;
+      font-weight: bold;
+      background-color: black;
+      color:white ;
+      border-radius:6px ;
+
+     }
+    
+    
+                          
+                
+       img{
+        width:300px ;
+       border-radius:6px ;
+        }
+            
+                              
+        div{
+        text-align: center;
+
+
+          
+        h5{
+          font-size:25px ;
+          }
+
+         p{
+          font-size:20px ;
+          span{
+            text-decoration:line-through ;
+          }
+          }
+
+         button{
+          position: relative;
+          top:65px ;
+          width:140px ;
+          height:50px;
+          border-radius:6px ;
+
+             a{
+            text-align: center;
+           font-size:18px ; 
+           color: black;     
+   
+                }
+
+              }
+  
+            
+               }
+            
+                
+              }
+
+
+      
+    .eight{
+    display: inline-block;
+     width:300px ;
+     height:450px ;
+     border:1px solid lightgray ;
+     border-radius:6px ;
+     position:relative;
+     top:15px ;
+    left:350px ;
+      
+      img{
+      position: relative;
+      width:300px ;
+      border-radius:6px ;
+      
+      }
+      
+        div{
+        text-align: center;
+        position: relative;
+        top:20px ;
+
+        h5{
+          font-size:25px ;
+          }
+        
+          p{
+          font-size:20px ;
+           }
+        
+           button{
+          position: relative;
+          top:65px ;
+          width:140px ;
+          height:50px;
+          border-radius:6px ;
+        
+             a{
+              text-align: center;
+              font-size:18px ; 
+              color: black;     
+           
+               }
+        
+                }
+          
+                }
+
+                }
+          
+
+  footer{
+  margin-top:150px ;
+  height:150px ;
+  background-color: #212529;
+    
+    div{
+
+        p{
+          text-align: center;
+          color:white;
+          font-size:20px ;
+          position: relative;
+          top:55px ;
+           
+        }
+
+
+    }
+
+
+  }
+
+
+
+
+
+
+   }
+
+
+
+
+
+  
